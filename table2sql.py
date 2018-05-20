@@ -4,7 +4,7 @@ import re
 
 
 server = '(localdb)\MSSQLLocalDB'
-database = 'psdtest3'
+database = 'your_db_name'
 conn = pyodbc.connect('DRIVER={SQL Server Native Client 11.0};SERVER='+server+';DATABASE='+database)
 
 doc = docx.Document('tables.docx')
